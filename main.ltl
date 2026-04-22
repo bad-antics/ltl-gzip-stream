@@ -1,0 +1,15 @@
+// ltl-gzip-stream/main.ltl
+//
+// Streaming gzip encoder / decoder with CRC32 verification.
+//
+// This is an early skeleton — contribution is welcome! See the
+// README for build instructions.
+
+import std::io
+import std::fmt
+
+pub fn main(args: [str]) -> Int {
+    io::println("ltl-gzip-stream v0.1.0")
+    io::println("Streaming gzip encoder / decoder with CRC32 verification.")
+    0
+}
