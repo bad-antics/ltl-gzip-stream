@@ -1,0 +1,10 @@
+// examples/demo.ltl — runnable demo for ltl_gzip_stream
+
+import std::io
+use ltl_gzip_stream as lib
+
+fn main() {
+    io::println("ltl_gzip_stream demo starting...")
+    let result = lib::main() |> io::inspect()
+    io::println("demo complete")
+}
